@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 transition-colors duration-300 font-sans antialiased overflow-x-hidden;
+  }
+  
+  body.dark {
+    @apply bg-[#080512] text-slate-100;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300/40 rounded-full hover:bg-slate-400/50 transition-colors duration-200;
+}
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-violet-950/40 rounded-full hover:bg-violet-900/50;
+}
+
+/* Premium Glassmorphic Classes */
+.glass-panel {
+  @apply bg-white/70 dark:bg-[#110c26]/60 backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-glass rounded-2xl;
+}
+
+.glass-card {
+  @apply bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/20 dark:border-white/5 shadow-sm rounded-xl transition-all duration-300 hover:shadow-glass hover:bg-white/60 dark:hover:bg-white/10;
+}
+
+.glass-input {
+  @apply bg-white/50 dark:bg-slate-900/40 backdrop-blur-sm border border-slate-200 dark:border-slate-800 rounded-lg px-4 py-2 text-slate-800 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-brand-500 transition-all duration-200;
+}
+
+/* Onboarding Canvas Particles & Mouse Glow */
+.aurora-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  overflow: hidden;
+  background: radial-gradient(circle at 10% 20%, rgba(224, 231, 255, 0.4) 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 50% 50%, rgba(192, 132, 252, 0.1) 0%, transparent 60%);
+}
+
+.dark .aurora-bg {
+  background: radial-gradient(circle at 10% 20%, rgba(31, 20, 68, 0.6) 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, rgba(88, 28, 135, 0.4) 0%, transparent 50%),
+              radial-gradient(circle at 50% 50%, rgba(17, 12, 38, 0.9) 0%, transparent 60%),
+              #07040d;
+}
+
+.aurora-blob {
+  filter: blur(80px);
+  opacity: 0.45;
+  mix-blend-mode: plus-lighter;
+}
+
+.dark .aurora-blob {
+  opacity: 0.25;
+}
+
+/* Kanban Drag Over styles */
+.kanban-column-dragging-over {
+  @apply bg-slate-100/50 dark:bg-violet-950/20 border-2 border-dashed border-brand-500/50 scale-[1.01] transition-all duration-200;
+}
+
+/* Hide Default Inputs Range */
+input[type="range"] {
+  accent-color: #8b5cf6;
+}

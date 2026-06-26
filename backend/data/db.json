@@ -1,0 +1,365 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Carter",
+      "email": "admin@nexora.com",
+      "password": "$2a$10$66MXrx4Trz30Q5I.qdm9Q.HZ6KiVmX48yaCoFv86wmdwKItkDCd7W",
+      "phone": "+1 (555) 123-4567",
+      "profession": "SaaS Founder",
+      "organization": "Nexora Inc.",
+      "skills": "Product Strategy, Node.js, System Architecture, React",
+      "bio": "Founder and Lead Architect of Nexora Workspace. Passionate about building world-class collaborative platforms.",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "role": "Admin",
+      "status": "Offline",
+      "verified": true,
+      "otpCode": null,
+      "createdAt": "2026-06-26T13:39:26.948Z",
+      "updatedAt": "2026-06-26T13:39:26.950Z"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Jenkins",
+      "email": "sarah@nexora.com",
+      "password": "$2a$10$66MXrx4Trz30Q5I.qdm9Q.HZ6KiVmX48yaCoFv86wmdwKItkDCd7W",
+      "phone": "+1 (555) 987-6543",
+      "profession": "Technical Product Manager",
+      "organization": "Nexora Inc.",
+      "skills": "Scrum, Agile, Project Delivery, User Experience",
+      "bio": "Agile evangelist managing sprint workflows and project lifecycles at Nexora HQ.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "role": "Project Manager",
+      "status": "Offline",
+      "verified": true,
+      "otpCode": null,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 3,
+      "name": "Devon Miller",
+      "email": "dev@nexora.com",
+      "password": "$2a$10$66MXrx4Trz30Q5I.qdm9Q.HZ6KiVmX48yaCoFv86wmdwKItkDCd7W",
+      "phone": "+1 (555) 246-8101",
+      "profession": "Full Stack Engineer",
+      "organization": "Nexora Inc.",
+      "skills": "React 19, Tailwind CSS, Express, MySQL, Socket.io",
+      "bio": "Full stack wizard building out the core collaborative features of the workspace.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "role": "Developer",
+      "status": "Offline",
+      "verified": true,
+      "otpCode": null,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 4,
+      "name": "SINGAM",
+      "email": "singamadi2006@gmail.com",
+      "password": "$2a$10$hhhmFQiCVnjC2Bg5pZmSB.pl0zpdNlhrXmnhP.5LjbZ9MYXBaEdPO",
+      "phone": "7981195980",
+      "profession": "Student",
+      "organization": "veltech university",
+      "skills": "react.js ,node.js , java",
+      "bio": "",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "role": "Student",
+      "status": "Online",
+      "verified": true,
+      "otpCode": null,
+      "createdAt": "2026-06-26T13:57:00.980Z",
+      "updatedAt": "2026-06-26T13:57:00.980Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": 1,
+      "name": "Nexora HQ Development",
+      "description": "Central workspace for Nexora platform engineering, design, and marketing teams.",
+      "slug": "nexora-hq-development",
+      "avatar": "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=150",
+      "ownerId": 1,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    }
+  ],
+  "workspaceMembers": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "userId": 1,
+      "role": "Admin",
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "userId": 2,
+      "role": "Project Manager",
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "userId": 3,
+      "role": "Developer",
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "name": "Nexora Workspace MVP",
+      "description": "Develop the initial core features including user workspace selection, drag-and-drop Kanban, real-time channels, and AI assistance integrations.",
+      "category": "Software Development",
+      "status": "Active",
+      "priority": "High",
+      "startDate": "2026-06-21",
+      "endDate": "2026-07-11",
+      "deadline": "2026-07-11",
+      "healthScore": 88,
+      "estimatedHours": 120,
+      "progress": 45,
+      "tags": "v1.0.0,Development,SaaS",
+      "ownerId": 1,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "name": "Nexora Branding & Design System",
+      "description": "Create premium visual assets, layout grids, animations config, logo vectors, and custom tailwind setups for glassmorphism styling.",
+      "category": "Design & Branding",
+      "status": "Planning",
+      "priority": "Medium",
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-26",
+      "deadline": "2026-07-26",
+      "healthScore": 100,
+      "estimatedHours": 60,
+      "progress": 10,
+      "tags": "Figma,UI,Design-System",
+      "ownerId": 2,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "title": "Setup Database and Repository Fallback Layer",
+      "description": "Create a custom database repository abstraction that checks for a live MySQL connection and automatically falls back to an in-memory db.json file database if MySQL is unavailable.",
+      "status": "Completed",
+      "priority": "Critical",
+      "startDate": "2026-06-21",
+      "deadline": "2026-06-24",
+      "estimatedHours": 16,
+      "assignedUserId": 1,
+      "creatorId": 1,
+      "isRecurring": false,
+      "recurrenceInterval": null,
+      "parentTaskId": null,
+      "tags": "Backend,Database,Architecture",
+      "notes": "Remember to sync file updates synchronously to protect data integrity.",
+      "attachments": "[{\"name\":\"db-design-schema.png\",\"url\":\"https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400\"}]",
+      "createdAt": "2026-06-21T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "title": "Build Socket.io Multi-Workspace Sync Engine",
+      "description": "Configure socket rooms matching workspace IDs. Implement events for drag-and-drop column changes, comments additions, typing alerts, and active member counts.",
+      "status": "In Progress",
+      "priority": "High",
+      "startDate": "2026-06-24",
+      "deadline": "2026-06-30",
+      "estimatedHours": 24,
+      "assignedUserId": 3,
+      "creatorId": 1,
+      "isRecurring": false,
+      "recurrenceInterval": null,
+      "parentTaskId": null,
+      "tags": "Backend,WebSockets,Realtime",
+      "notes": "Make sure standard HTTP polling is used as a backup fallback if WebSocket connection is interrupted.",
+      "attachments": null,
+      "createdAt": "2026-06-24T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "title": "Implement Gemini AI Smart Task Generator",
+      "description": "Establish AI controller that handles prompt processing. Returns simulated descriptive lists, predictions on delay probabilities, and project summarization charts.",
+      "status": "Pending",
+      "priority": "High",
+      "startDate": "2026-06-26",
+      "deadline": "2026-07-04",
+      "estimatedHours": 12,
+      "assignedUserId": 3,
+      "creatorId": 2,
+      "isRecurring": false,
+      "recurrenceInterval": null,
+      "parentTaskId": null,
+      "tags": "AI,Backend,Integration",
+      "notes": "Local rules-based fallback handles prompt logic if GEMINI_API_KEY is not defined.",
+      "attachments": null,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 4,
+      "projectId": 1,
+      "title": "Design Landing Page and Onboarding System",
+      "description": "Implement modern landing page including particle animation grids, aurora background animations, FAQ expanders, pricing, and login modals.",
+      "status": "Pending",
+      "priority": "Medium",
+      "startDate": "2026-06-26",
+      "deadline": "2026-07-06",
+      "estimatedHours": 20,
+      "assignedUserId": 2,
+      "creatorId": 2,
+      "isRecurring": false,
+      "recurrenceInterval": null,
+      "parentTaskId": null,
+      "tags": "Frontend,CSS,UIUX",
+      "notes": "Must feel extremely premium. Glassmorphic shadows, hover scale transformations, Inter font family.",
+      "attachments": null,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    },
+    {
+      "id": 5,
+      "projectId": 1,
+      "title": "Conduct Initial QA and Client Testing",
+      "description": "Sub-task for testing core login/logout validation, task checklist updates, and spreadsheet downloads.",
+      "status": "Pending",
+      "priority": "Low",
+      "startDate": "2026-06-26",
+      "deadline": "2026-07-08",
+      "estimatedHours": 8,
+      "assignedUserId": 2,
+      "creatorId": 1,
+      "isRecurring": false,
+      "recurrenceInterval": null,
+      "parentTaskId": 1,
+      "tags": "QA,Testing",
+      "notes": null,
+      "attachments": null,
+      "createdAt": "2026-06-26T13:39:26.951Z",
+      "updatedAt": "2026-06-26T13:39:26.951Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "taskId": 2,
+      "userId": 1,
+      "commentText": "Make sure typing indicators are restricted to users viewing the active task card.",
+      "createdAt": "2026-06-26T09:39:26.951Z",
+      "updatedAt": "2026-06-26T09:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "taskId": 2,
+      "userId": 3,
+      "commentText": "Working on it! Sockets are configured to broadcast within a task-specific room.",
+      "createdAt": "2026-06-26T11:39:26.951Z",
+      "updatedAt": "2026-06-26T11:39:26.951Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "taskId": 1,
+      "userId": 1,
+      "activityType": "Create",
+      "details": "Task created",
+      "createdAt": "2026-06-21T13:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "taskId": 1,
+      "userId": 1,
+      "activityType": "StatusChange",
+      "details": "Changed status to Completed",
+      "createdAt": "2026-06-24T13:39:26.951Z"
+    },
+    {
+      "id": 3,
+      "taskId": 2,
+      "userId": 1,
+      "activityType": "Create",
+      "details": "Task created",
+      "createdAt": "2026-06-24T13:39:26.951Z"
+    },
+    {
+      "id": 4,
+      "taskId": 2,
+      "userId": 3,
+      "activityType": "StatusChange",
+      "details": "Changed status to In Progress",
+      "createdAt": "2026-06-26T11:39:26.951Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "senderId": 1,
+      "recipientId": null,
+      "groupId": "general",
+      "messageText": "Welcome everyone to the Nexora HQ Workspace! This is where we coordinate and build.",
+      "reactions": "{\"🎉\":[1,2,3]}",
+      "createdAt": "2026-06-23T13:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "senderId": 2,
+      "recipientId": null,
+      "groupId": "general",
+      "messageText": "Thanks Alex! Excited to collaborate on our MVP sprint.",
+      "reactions": null,
+      "createdAt": "2026-06-24T13:39:26.951Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "senderId": 3,
+      "recipientId": null,
+      "groupId": "general",
+      "messageText": "API configurations are looking solid. DB fallback is fully operational.",
+      "reactions": "{\"👍\":[1]}",
+      "createdAt": "2026-06-26T09:39:26.951Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 3,
+      "title": "Task Assigned",
+      "message": "Alex Carter assigned you to task \"Build Socket.io Multi-Workspace Sync Engine\".",
+      "type": "Task",
+      "isRead": false,
+      "createdAt": "2026-06-24T13:39:26.951Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Project Health Update",
+      "message": "Project \"Nexora Workspace MVP\" health score updated to 88%.",
+      "type": "Project",
+      "isRead": true,
+      "createdAt": "2026-06-25T13:39:26.951Z"
+    }
+  ]
+}
